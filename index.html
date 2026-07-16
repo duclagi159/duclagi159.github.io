@@ -1,225 +1,107 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Terms of Service - Tool Beautiful</title>
-
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.75;
-      color: #d9e0ef;
-      background: #0b1020;
-    }
-
-    .container {
-      width: min(900px, calc(100% - 40px));
-      margin: 0 auto;
-      padding: 55px 0 80px;
-    }
-
-    .document {
-      padding: 38px;
-      border: 1px solid #27324a;
-      border-radius: 18px;
-      background: #121a2d;
-      box-shadow: 0 18px 55px rgba(0, 0, 0, 0.2);
-    }
-
-    h1,
-    h2 {
-      color: #ffffff;
-    }
-
-    h1 {
-      margin-top: 0;
-      font-size: 38px;
-    }
-
-    h2 {
-      margin-top: 34px;
-      margin-bottom: 8px;
-      font-size: 21px;
-    }
-
-    p,
-    li {
-      color: #c7d0e2;
-    }
-
-    a {
-      color: #8eb5ff;
-    }
-
-    .updated {
-      color: #8f9bb2;
-    }
-
-    .back {
-      display: inline-block;
-      margin-bottom: 20px;
-      text-decoration: none;
-    }
-
-    @media (max-width: 600px) {
-      .container {
-        width: min(100% - 24px, 900px);
-        padding-top: 24px;
-      }
-
-      .document {
-        padding: 23px;
-      }
-
-      h1 {
-        font-size: 30px;
-      }
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tool Beautiful — Windows Video Tools and Authorized TikTok Analytics</title>
+  <meta name="description" content="Official website for Tool Beautiful, a Windows desktop application for video workflows and authorized TikTok profile, public-video, and account analytics.">
+  <link rel="canonical" href="https://duclagi159.github.io/">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <main class="container">
-    <a class="back" href="index.html">← Return to Tool Beautiful</a>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">TB</span><span>Tool Beautiful</span></a>
+      <div class="nav-links">
+        <a href="#product">Product</a>
+        <a href="#tiktok">TikTok integration</a>
+        <a href="support.html">Support</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </nav>
+  </header>
 
-    <article class="document">
-      <h1>Terms of Service</h1>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Official product website · Windows desktop</span>
+          <h1>Video workflows and authorized TikTok analytics in one desktop app.</h1>
+          <p class="lead">Tool Beautiful helps creators prepare video content and review profile, public-video, and performance information from TikTok accounts they explicitly authorize through TikTok Login Kit.</p>
+          <div class="actions">
+            <a class="button" href="#tiktok">How TikTok connection works</a>
+            <a class="button secondary" href="support.html">Product support</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="Application summary">
+          <div class="status-row"><span class="status-icon">✓</span><div><strong>Official authorization</strong><span>TikTok Login Kit with user consent</span></div></div>
+          <div class="status-row"><span class="status-icon">✓</span><div><strong>Read-only analytics</strong><span>Profile, public videos, and available metrics</span></div></div>
+          <div class="status-row"><span class="status-icon">✓</span><div><strong>Local desktop storage</strong><span>Credentials protected by Windows encryption</span></div></div>
+          <div class="status-row"><span class="status-icon">✓</span><div><strong>User-controlled access</strong><span>Disconnect, revoke, and delete local data</span></div></div>
+        </aside>
+      </div>
+    </section>
 
-      <p class="updated">Last updated: July 13, 2026</p>
+    <section class="section" id="product">
+      <div class="container">
+        <div class="section-head"><h2>A developed Windows application for creator workflows</h2><p>Tool Beautiful combines local media utilities with an account dashboard for users managing their own authorized TikTok presence.</p></div>
+        <div class="grid-3">
+          <article class="card"><h3>Video workflow</h3><p>Prepare media, edit timelines, generate captions, manage downloadable assets, and export creator-ready video from a Windows desktop workspace.</p></article>
+          <article class="card"><h3>Manager Account</h3><p>Connect one or more TikTok accounts with official authorization, then review account identity, public videos, and statistics made available by TikTok.</p></article>
+          <article class="card"><h3>Local control</h3><p>The application runs locally. Users choose which account to connect, when to synchronize, and when to disconnect or remove locally stored account data.</p></article>
+        </div>
+      </div>
+    </section>
 
-      <p>
-        These Terms of Service govern your use of Tool Beautiful. By using
-        the application, you agree to these terms.
-      </p>
+    <section class="section" id="tiktok">
+      <div class="container">
+        <div class="section-head"><h2>How the TikTok integration works</h2><p>The application does not ask for a TikTok password. Connection is completed through TikTok's official consent flow.</p></div>
+        <div class="grid-3">
+          <article class="card"><div class="step-number">1</div><h3>User starts connection</h3><p>In Manager Account, the user selects “Connect TikTok.” Tool Beautiful opens the official TikTok authorization page.</p></article>
+          <article class="card"><div class="step-number">2</div><h3>User reviews permissions</h3><p>TikTok shows the requested permissions. The account owner signs in directly with TikTok and chooses whether to authorize access.</p></article>
+          <article class="card"><div class="step-number">3</div><h3>Authorized data is displayed</h3><p>After authorization, Tool Beautiful displays the account profile, available statistics, and public-video information in the local desktop dashboard.</p></article>
+        </div>
+      </div>
+    </section>
 
-      <h2>1. About Tool Beautiful</h2>
+    <section class="section" aria-labelledby="permissions-title">
+      <div class="container">
+        <div class="section-head"><h2 id="permissions-title">Permissions and their purpose</h2><p>Tool Beautiful requests only the TikTok scopes needed for the features presented in Manager Account.</p></div>
+        <table class="permission-table">
+          <thead><tr><th>Permission</th><th>Purpose inside Tool Beautiful</th></tr></thead>
+          <tbody>
+            <tr><td><code>user.info.basic</code></td><td>Identify the authorized account and display its basic profile information.</td></tr>
+            <tr><td><code>user.info.profile</code></td><td>Display profile details made available for the authorized user.</td></tr>
+            <tr><td><code>user.info.stats</code></td><td>Display available account statistics such as followers, following, likes, and video count.</td></tr>
+            <tr><td><code>video.list</code></td><td>List the authorized account's public videos and display available view, like, comment, and share metrics.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
-      <p>
-        Tool Beautiful is a Windows desktop application that provides video
-        utilities, browser-profile management features, and tools for
-        displaying information from TikTok accounts authorized by the user.
-      </p>
+    <section class="section">
+      <div class="container grid-2">
+        <article class="card"><h3>What the integration does</h3><ul><li>Displays information for accounts the user authorized.</li><li>Reads profile, public-video, and available analytics data.</li><li>Refreshes access when TikTok permits it.</li><li>Lets the user disconnect and revoke access.</li></ul></article>
+        <article class="card"><h3>What the integration does not do</h3><ul><li>It does not request or store the user's TikTok password.</li><li>It does not publish, edit, or delete TikTok videos.</li><li>It does not sell TikTok data to advertisers or unrelated third parties.</li><li>It does not access accounts without the account owner's authorization.</li></ul></article>
+      </div>
+    </section>
 
-      <h2>2. Eligibility and account ownership</h2>
-
-      <p>
-        You may only connect, access, or manage TikTok accounts that you own
-        or that you have received clear permission to manage.
-      </p>
-
-      <p>
-        You are responsible for maintaining the security of your computer,
-        TikTok account, browser profiles, authorization credentials, and
-        other account information.
-      </p>
-
-      <h2>3. TikTok authorization</h2>
-
-      <p>
-        TikTok information is accessed only after the account owner completes
-        an authorization process provided by TikTok.
-      </p>
-
-      <p>
-        The availability and scope of TikTok data depend on the permissions
-        granted by the user and the services made available by TikTok.
-      </p>
-
-      <h2>4. Acceptable use</h2>
-
-      <p>You agree not to use Tool Beautiful to:</p>
-
-      <ul>
-        <li>Access an account without authorization.</li>
-        <li>Impersonate another person or organization.</li>
-        <li>Engage in fraud, abuse, harassment, or unlawful activity.</li>
-        <li>Attempt to bypass platform security or access restrictions.</li>
-        <li>Violate TikTok policies or applicable laws.</li>
-        <li>Distribute malware or interfere with the operation of the application.</li>
-      </ul>
-
-      <h2>5. User content and responsibilities</h2>
-
-      <p>
-        You remain responsible for content, files, accounts, links, videos,
-        captions, and other information processed through the application.
-      </p>
-
-      <p>
-        You must ensure that you have all rights and permissions required to
-        use, download, edit, publish, or manage such content.
-      </p>
-
-      <h2>6. Third-party services</h2>
-
-      <p>
-        Tool Beautiful may interact with third-party services such as TikTok.
-        Your use of those services remains subject to their own terms,
-        policies, availability, limitations, and technical requirements.
-      </p>
-
-      <h2>7. Availability and changes</h2>
-
-      <p>
-        Application features may be changed, suspended, limited, or
-        discontinued at any time due to maintenance, security requirements,
-        platform changes, or other technical reasons.
-      </p>
-
-      <p>
-        We do not guarantee uninterrupted or error-free operation.
-      </p>
-
-      <h2>8. Disclaimer</h2>
-
-      <p>
-        Tool Beautiful is provided on an “as is” and “as available” basis,
-        without warranties of uninterrupted availability, compatibility,
-        accuracy, or fitness for a particular purpose.
-      </p>
-
-      <p>
-        Tool Beautiful is an independent application and is not affiliated
-        with, endorsed by, or sponsored by TikTok.
-      </p>
-
-      <h2>9. Limitation of liability</h2>
-
-      <p>
-        To the extent permitted by law, the developer of Tool Beautiful will
-        not be responsible for indirect losses, account restrictions, loss of
-        data, platform changes, service interruptions, or damages resulting
-        from unauthorized or improper use of the application.
-      </p>
-
-      <h2>10. Suspension or termination</h2>
-
-      <p>
-        Access to the application may be restricted or terminated when these
-        terms, applicable laws, or third-party platform policies are violated.
-      </p>
-
-      <h2>11. Changes to these terms</h2>
-
-      <p>
-        These terms may be updated when application functionality, legal
-        requirements, or third-party platform requirements change.
-      </p>
-
-      <h2>12. Contact</h2>
-
-      <p>
-        Questions regarding these Terms of Service may be sent to:
-        <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a>
-      </p>
-    </article>
+    <section class="section" id="privacy">
+      <div class="container">
+        <div class="notice"><strong>User privacy and control:</strong> authorization credentials are stored locally and protected using Windows data-protection facilities. Users can disconnect in Tool Beautiful, revoke access from TikTok, and follow the documented local-data deletion process.</div>
+        <div class="legal-links" aria-label="Legal and support links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="data-deletion.html">Data Deletion Instructions</a>
+          <a href="support.html">Support and Contact</a>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid"><span>© 2026 Tool Beautiful. Independent software; not affiliated with or endorsed by TikTok.</span><div class="footer-links"><a href="support.html">Support</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a><a href="data-deletion.html">Data deletion</a></div></div>
+  </footer>
 </body>
 </html>
